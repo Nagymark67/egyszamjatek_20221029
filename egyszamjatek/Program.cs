@@ -13,12 +13,18 @@ namespace egyszamjatek
         {
             Feladat02();
             Feladat03();
+            Thread.Sleep(2000);
             Feladat04();
+            Thread.Sleep(2000);
             Feladat05();
+            Thread.Sleep(2000);
             Feladat06();
-            Feladat07();
+            Thread.Sleep(2000);
+            Feladat07();            
             Feladat08();
+            Thread.Sleep(2000);
             Feladat09();
+            Thread.Sleep(2000);
             Feladat10();
         }
 
