@@ -146,9 +146,9 @@ namespace egyszamjatek
 
         private static void Feladat10()
         {
-            using StreamWriter sw = new(path:@"..\..\..\bin\Debug\nyertes.txt");            
-            int minSzam = MinTippKeres();
+            using StreamWriter sw = new(path:@"..\..\..\bin\Debug\nyertes.txt");
             string nyertesNev = nyertesNevKeres();
+            int minSzam = MinTippKeres();            
             sw.WriteLine("Forduló száma: " + forduloSorszama + ".");
             sw.WriteLine("Nyertes tipp: " + minSzam);
             sw.WriteLine("Nyertes játékos: " + nyertesNev);
